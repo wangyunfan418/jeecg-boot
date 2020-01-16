@@ -56,6 +56,7 @@
   import ACol from "ant-design-vue/es/grid/Col";
   import ARow from "ant-design-vue/es/grid/Row";
   import ATextarea from 'ant-design-vue/es/input/TextArea'
+  import Moment from 'moment'
 
   export default {
     components: {
@@ -72,9 +73,7 @@
     },
     data(){
       return {
-        columns: [{
-        }
-        ],
+        columns: [{}],
         labelCol: {
           xs: { span: 24 },
           sm: { span: 2 },
@@ -84,7 +83,7 @@
           sm: { span: 8 },
         },
         printer:'张三',
-        printTime:'2019-02-01 12:00:00',
+        printTime: Moment().format('YYYY-MM-DD HH:mm:ss'),
         printContent:'打印内容就是,做一个打印测试',
         printReason:'做一个打印测试',
         previewVisible: false,
@@ -109,12 +108,9 @@
       }
     },
     created() {
-      this.getDate();
+      this.getDate()
     },
     methods: {
-      loadData(){
-
-      },
       getDate(){
         // 当前时间
       },
@@ -155,9 +151,9 @@
   .explain .ant-input,.sign .ant-input{
     font-weight:bolder;
     text-align:center;
-    border-left-width:0px!important;
-    border-top-width:0px!important;
-    border-right-width:0px!important;
+    border-left-width: 0px !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
   }
   .explain div{
     margin-bottom: 10px;

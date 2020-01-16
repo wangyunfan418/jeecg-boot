@@ -114,12 +114,13 @@
     },
     mounted() {
       this.loadData();
+      // TODO: 暂时注释掉 ws 心跳
       //this.timerFun();
-      this.initWebSocket();
-      this.heartCheckFun();
+      // this.initWebSocket();
+      // this.heartCheckFun();
     },
     destroyed: function () { // 离开页面生命周期函数
-      this.websocketclose();
+      // this.websocketclose()
     },
     methods: {
       timerFun() {
