@@ -158,17 +158,29 @@
                     <button class="enlarge-btn" id="fangda"></button>
                     <ul class="modal-btn">
                         <li>
-                            <div></div>1</li>
+                            <div></div>
+                            1
+                        </li>
                         <li>
-                            <div></div>2</li>
+                            <div></div>
+                            2
+                        </li>
                         <li>
-                            <div></div>3</li>
+                            <div></div>
+                            3
+                        </li>
                         <li>
-                            <div></div>4</li>
+                            <div></div>
+                            4
+                        </li>
                         <li>
-                            <div></div>5</li>
+                            <div></div>
+                            5
+                        </li>
                         <li>
-                            <div></div>6</li>
+                            <div></div>
+                            6
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -180,7 +192,8 @@
             <div class="title-box">
                 <h6 id="barTitle">派件数据</h6>
                 <img class="line-img" src="${base}/bigscreen/template2/images/line-blue.png" alt="">
-                <button data-state=1 id="tabBtn"><img src="${base}/bigscreen/template2/images/chart_icon.png" alt=""><span>图表</span></button>
+                <button data-state=1 id="tabBtn"><img src="${base}/bigscreen/template2/images/chart_icon.png"
+                                                      alt=""><span>图表</span></button>
             </div>
             <p class="unit">单位：件</p>
             <div class="chart-box">
@@ -254,7 +267,10 @@
         </div>
         <div class="right-center">
             <div class="title-box">
-                <p id="switchBtn"><span class="active" data-dataType="income">收入数据</span><img class="line-img" src="${base}/bigscreen/template2/images/line-blue.png" alt=""><span data-dataType="expend">支出数据</span></p>
+                <p id="switchBtn"><span class="active" data-dataType="income">收入数据</span><img class="line-img"
+                                                                                              src="${base}/bigscreen/template2/images/line-blue.png"
+                                                                                              alt=""><span
+                            data-dataType="expend">支出数据</span></p>
                 <img class="line-img" src="${base}/bigscreen/template2/images/line-blue.png" alt="">
                 <button id="dateBtn"><img src="${base}/bigscreen/template2/images/data_icon.png" alt="">日期</button>
             </div>
@@ -278,8 +294,10 @@
             </div>
             <div class="data-box">
                 <div class="settings-box">
-                    <p><img src="${base}/bigscreen/template2/images/teacher_icon.png" alt="">今日值班：<span id="name_a"></span><span id="date_a"></span></p>
-                    <p><img src="${base}/bigscreen/template2/images/people_iocn.png" alt="">负责人：<span id="lea_a"></span></p>
+                    <p><img src="${base}/bigscreen/template2/images/teacher_icon.png" alt="">今日值班：<span
+                                id="name_a"></span><span id="date_a"></span></p>
+                    <p><img src="${base}/bigscreen/template2/images/people_iocn.png" alt="">负责人：<span id="lea_a"></span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -384,7 +402,8 @@
         </div>
         <div class="cont-div">
             <h2 class="title" id="barTitles">派件数据</h2>
-            <button class="btn-class" data-state=1 id="tabBtns"><img src="${base}/bigscreen/template2/images/chart_icon.png" alt=""><span>图表</span></button>
+            <button class="btn-class" data-state=1 id="tabBtns"><img
+                        src="${base}/bigscreen/template2/images/chart_icon.png" alt=""><span>图表</span></button>
             <div class="chart-box pop-chart">
                 <div id="chart3s" style="width:100%;height:90%;"></div>
             </div>
@@ -456,7 +475,8 @@
         </div>
         <div class="cont-div">
             <h2 class="title" id="titles"></h2>
-            <button class="btn-class" id="dateBtns"><img src="${base}/bigscreen/template2/images/data_icon.png" alt="">日期</button>
+            <button class="btn-class" id="dateBtns"><img src="${base}/bigscreen/template2/images/data_icon.png" alt="">日期
+            </button>
             <div class="data-box  pop-time">
                 <div class="time-box" id="timeBoxs">
                     <div class="time-div">
@@ -522,7 +542,8 @@
                 <input type="text" value="">
                 <button class="plus" id="addL"></button>
                 <button class="mineus" id="mineusL" style="display:none;"></button>
-                <button class="add-btn" id="addSet"><img src="${base}/bigscreen/template2/images/plus.png" alt="">添加</button>
+                <button class="add-btn" id="addSet"><img src="${base}/bigscreen/template2/images/plus.png" alt="">添加
+                </button>
             </div>
             <table class="table3">
                 <thead>
@@ -671,7 +692,6 @@
         })
     })
 </script>
-
-
+printarea
 
 </html>
